@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       compile_pkg:
-        description: 'Compile packages (default : all packages on list_packages.txt)'
+        description: 'Compile packages (default : all packages on list_packages.txt - action)'
         required: false
         default: ''
         type: string
